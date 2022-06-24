@@ -28,7 +28,7 @@ export default function TextArea(props) {
     setHex(parseInt(d, 8).toString(16));
   };
   const hexIn = (e) => {
-    const d = parseInt(e.target.value);
+    const d =e.target.value;
     setHex(d);
     setDec(parseInt(d, 16));
     setBin(parseInt(d, 16).toString(2));
